@@ -68,51 +68,51 @@ function buttonChordDown(i){
     switch(i){
         case 0 : 
             $('.btn-chord.C').css({'background-color':'rgb(248, 204, 204)'});
-            $('.btn-chord.C span').css({'background-color':'rgb(248, 204, 204)','color':'#fff','transform':'translateY(0px)'});
+            $('.btn-chord.C span').css({'background-color':'rgb(248, 204, 204)','color':'#fff','transform':'translateY(4px)'});
             break;
         case 1 : 
             $('.btn-chord.G').css({'background-color':'rgb(248, 204, 204)'});
-            $('.btn-chord.G span').css({'background-color':'rgb(248, 204, 204)','color':'#fff','transform':'translateY(0px)'});
+            $('.btn-chord.G span').css({'background-color':'rgb(248, 204, 204)','color':'#fff','transform':'translateY(4px)'});
             break;            
         case 2 :
             $('.btn-chord.D').css({'background-color':'rgb(248, 204, 204)'});
-            $('.btn-chord.D span').css({'background-color':'rgb(248, 204, 204)','color':'#fff','transform':'translateY(0px)'});
+            $('.btn-chord.D span').css({'background-color':'rgb(248, 204, 204)','color':'#fff','transform':'translateY(4px)'});
             break;     
         case 3 :
             $('.btn-chord.A').css({'background-color':'rgb(248, 204, 204)'});
-            $('.btn-chord.A span').css({'background-color':'rgb(248, 204, 204)','color':'#fff','transform':'translateY(0px)'});
+            $('.btn-chord.A span').css({'background-color':'rgb(248, 204, 204)','color':'#fff','transform':'translateY(4px)'});
             break;     
         case 4 :
             $('.btn-chord.E').css({'background-color':'rgb(248, 204, 204)'});
-            $('.btn-chord.E span').css({'background-color':'rgb(248, 204, 204)','color':'#fff','transform':'translateY(0px)'});
+            $('.btn-chord.E span').css({'background-color':'rgb(248, 204, 204)','color':'#fff','transform':'translateY(4px)'});
             break; 
         case 5 :
             $('.btn-chord.B').css({'background-color':'rgb(248, 204, 204)'});
-            $('.btn-chord.B span').css({'background-color':'rgb(248, 204, 204)','color':'#fff','transform':'translateY(0px)'});
+            $('.btn-chord.B span').css({'background-color':'rgb(248, 204, 204)','color':'#fff','transform':'translateY(4px)'});
             break; 
         case 6 :
             $('.btn-chord.sF').css({'background-color':'rgb(248, 204, 204)'});
-            $('.btn-chord.sF span').css({'background-color':'rgb(248, 204, 204)','color':'#fff','transform':'translateY(0px)'});
+            $('.btn-chord.sF span').css({'background-color':'rgb(248, 204, 204)','color':'#fff','transform':'translateY(4px)'});
             break; 
         case 7 :
             $('.btn-chord.bD').css({'background-color':'rgb(248, 204, 204)'});
-            $('.btn-chord.bD span').css({'background-color':'rgb(248, 204, 204)','color':'#fff','transform':'translateY(0px)'});
+            $('.btn-chord.bD span').css({'background-color':'rgb(248, 204, 204)','color':'#fff','transform':'translateY(4px)'});
             break; 
         case 8 :
             $('.btn-chord.bA').css({'background-color':'rgb(248, 204, 204)'});
-            $('.btn-chord.bA span').css({'background-color':'rgb(248, 204, 204)','color':'#fff','transform':'translateY(0px)'});
+            $('.btn-chord.bA span').css({'background-color':'rgb(248, 204, 204)','color':'#fff','transform':'translateY(4px)'});
             break; 
         case 9 :
             $('.btn-chord.bE').css({'background-color':'rgb(248, 204, 204)'});
-            $('.btn-chord.bE span').css({'background-color':'rgb(248, 204, 204)','color':'#fff','transform':'translateY(0px)'});
+            $('.btn-chord.bE span').css({'background-color':'rgb(248, 204, 204)','color':'#fff','transform':'translateY(4px)'});
           break; 
         case 10 :
             $('.btn-chord.bB').css({'background-color':'rgb(248, 204, 204)'});
-            $('.btn-chord.bB span').css({'background-color':'rgb(248, 204, 204)','color':'#fff','transform':'translateY(0px)'});
+            $('.btn-chord.bB span').css({'background-color':'rgb(248, 204, 204)','color':'#fff','transform':'translateY(4px)'});
             break; 
         case 11 :
             $('.btn-chord.F').css({'background-color':'rgb(248, 204, 204)'});
-            $('.btn-chord.F span').css({'background-color':'rgb(248, 204, 204)','color':'#fff','transform':'translateY(0px)'});
+            $('.btn-chord.F span').css({'background-color':'rgb(248, 204, 204)','color':'#fff','transform':'translateY(4px)'});
             break; 
     }
     draw();
