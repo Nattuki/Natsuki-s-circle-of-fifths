@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Natsuki的五度圈</title>
+    <link rel="stylesheet" type="text/css" href="style/particles.css">
+    <link rel="stylesheet" type="text/css" href="style/main.css">
+</head>
+
+<body>
+    <div id="particles-js"></div>
+    <div id="main">
+        <div class="circle">
+                <canvas id="canvas"></canvas>
+                <img src="img/circle-1.png" alt="circle-1" id="circle-1" width="700px">
+                <img src="img/circle-2.png" alt="circle-2" id="circle-2" width="450px">
+        </div>
+        <div class="operate-tonality">
+            <a href="javascript:void(0)" class="btn-tonality C"><span>C</span></a>
+            <a href="javascript:void(0)" class="btn-tonality bD"><span>D♭</span></a>
+            <a href="javascript:void(0)" class="btn-tonality D"><span>D</span></a>
+            <a href="javascript:void(0)" class="btn-tonality bE"><span>E♭</span></a>
+            <a href="javascript:void(0)" class="btn-tonality E"><span>E</span></a>
+            <a href="javascript:void(0)" class="btn-tonality F"><span>F</span></a>
+            <a href="javascript:void(0)" class="btn-tonality sF"><span>F♭</span></a>
+            <a href="javascript:void(0)" class="btn-tonality G"><span>G</span></a>
+            <a href="javascript:void(0)" class="btn-tonality bA"><span>A♭</span></a>
+            <a href="javascript:void(0)" class="btn-tonality A"><span>A</span></a>
+            <a href="javascript:void(0)" class="btn-tonality bB"><span>B♭</span></a>
+            <a href="javascript:void(0)" class="btn-tonality B"><span>B</span></a>
+        </div>
+        <img src="img/line.png" alt="line" id="line" width="600px">
+        <div class="operate-chord">
+            <a href="javascript:void(0)" class="btn-chord C"><span>1</span></a>
+            <a href="javascript:void(0)" class="btn-chord bD"><span>2♭</span></a>
+            <a href="javascript:void(0)" class="btn-chord D"><span>2</span></a>
+            <a href="javascript:void(0)" class="btn-chord bE"><span>3♭</span></a>
+            <a href="javascript:void(0)" class="btn-chord E"><span>3</span></a>
+            <a href="javascript:void(0)" class="btn-chord F"><span>4</span></a>
+            <a href="javascript:void(0)" class="btn-chord sF"><span>4♯</span></a>
+            <a href="javascript:void(0)" class="btn-chord G"><span>5</span></a>
+            <a href="javascript:void(0)" class="btn-chord bA"><span>6♭</span></a>
+            <a href="javascript:void(0)" class="btn-chord A"><span>6</span></a>
+            <a href="javascript:void(0)" class="btn-chord bB"><span>7♭</span></a>
+            <a href="javascript:void(0)" class="btn-chord B"><span>7</span></a>
+        </div>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script/particles.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="script/tonality.js"></script>
+    <script src="script/chord.js"></script>
+</body>
